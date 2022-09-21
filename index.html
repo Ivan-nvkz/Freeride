@@ -9,8 +9,13 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/choices.min.css">
+   <link rel="stylesheet" href="css/air-datepicker.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -63,7 +68,6 @@
                   <div class="header__content-inner">
                      <div class="header-content__title-box">
                         <h1 class="header__title-top">Фрирайд с забросками на снегоходах в Шерегеше</h1>
-
                      </div>
                      <ul class="social">
                         <li class="social__list">
@@ -185,8 +189,8 @@
                <div class="container">
                   <div class="header__content-inner">
                      <div class="header-content__title-box">
-                        <h1 class="header__title-top">Фрирайд с забросками на снегоходах в Шерегеше</h1>
-
+                        <h1 class="header__title-top header__title-top-two">Фрирайд с забросками на снегоходах в
+                           Шерегеше</h1>
                      </div>
                      <ul class="social">
                         <li class="social__list">
@@ -262,8 +266,6 @@
                </div>
             </div>
          </div>
-
-
          <video autoplay muted loop preload="auto" class="full-screen__video">
             <source src="images/video/Cinematic.webm" type="video/webm">
             <source src="images/video/Cinematic.mp4" type="video/mp4">
@@ -273,7 +275,52 @@
 
       <main class="main">
 
+         <section class="snowmobiles">
+            <div class="snowmobile__text-decor snowmobile__text-decor-one">Freeride </div>
+            <div class="snowmobile__text-decor snowmobile__text-decor-two">on </div>
+            <div class="snowmobile__text-decor snowmobile__text-decor-three">snowmobiles</div>
+            <div class="container">
+               <div class="snowmobile__inner">
+                  <span class="catalog__decor-circle--pink"></span>
+                  <span class="catalog__decor-circle--green"></span>
+                  <h2 class="snowmobile__title">
+                     Фрирайд на снегоходах
+                  </h2>
+                  <div class="snowmobile__text-block">
+                     <p class="snowmobile__text">
+                        Мы гарантируем Вам чистейший фрирайд, качественный пухляк, безопасность и взрывные эмоции.
+                        Снегоход забросит Вас в самые эксклюзивные места, и вы будете сюда возвращаются снова и снова!
+                     </p>
+                     <p class="snowmobile__text">
+                        Более пяти лет мы занимается организацией фрирайд на снегоходах в Шерегеше. Подъемы
+                        осуществляются на лучших в своём классе снегоходах "Буран".
+                     </p>
+                     <p class="snowmobile__text">
+                        Катание происходит на склонах Северного Мустага, долины Большого Таза, долины реки Викторьевка,
+                        хребта Подпыхтун. Все наши локации дикие, значительно удалены от подъемников и доступны только
+                        для нас.
+                     </p>
+                     <p class="snowmobile__text">
+                        Перепад высот от 200 до 740 метров, уклоны от 15 до 30 градусов. Склоны разнообразные: от
+                        широчайших полей и знаменитого шерегешского леса до достаточно сложных кулуаров с обилием
+                        дропов. В день мы можем совершить от 6 до 16 спусков, или около 4000 вертикальных метров!
+                     </p>
+                  </div>
 
+                  <div class="tour-btn__box">
+                     <button class="call-btn tour-btn" data-popup="#reservations">
+                        <svg class="call-btn__img  tour-btn__img  " width="24" height="24" viewBox="0 0 24 24"
+                           fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.57L6.62 10.78C8.06 13.62 10.38 15.93 13.21 17.37L15.41 15.17C15.61 14.98 15.86 14.88 16.12 14.88C16.22 14.88 16.33 14.9 16.43 14.93ZM19 12H21C21 7.03 16.97 3 12 3V5C15.87 5 19 8.13 19 12ZM15 12H17C17 9.24 14.76 7 12 7V9C13.66 9 15 10.34 15 12ZM6.53 5C6.6 5.88 6.75 6.75 6.98 7.58L5.78 8.79C5.38 7.58 5.12 6.32 5.03 5H6.53ZM15.2 18.21C16.4 18.62 17.68 18.88 19 18.97V17.46C18.12 17.4 17.25 17.25 16.4 17.01L15.2 18.21Z"
+                              fill="#000" />
+                        </svg>
+                        заказать тур
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
 
 
 
@@ -369,6 +416,78 @@
       </div>
 
 
+      <div class="hystmodal" id="reservations" aria-hidden="true">
+         <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+               <button data-hystclose class="hystmodal__close hystmodal__close-reservations">Закрыть</button>
+               <div class="popup-reservations__body">
+                  <form class="popup__reservations-form" action="#">
+                     <p class="popup__reservations-title">
+                        Бронирование тура
+                     </p>
+                     <div class="reservations-form__body">
+                        <select class="multi-default  " name="yacht">
+                           <option value=""> Выберите снегоход </option>
+                           <option value="Снегоход №1">Снегоход №1
+                           </option>
+                           <option value="Снегоход №2">Снегоход №2</option>
+                           <option value="Снегоход №3">Снегоход №3</option>
+                           <option value="Снегоход №4">Снегоход №4</option>
+                           <option value="Снегоход №5">Снегоход №5</option>
+                        </select>
+                        <select class="multi-default time-select " name="time">
+                           <option class="time-option" value=""> На какое время планируете тур ?</option>
+                           <option class="time-option" value="2 часа">2 часа</option>
+                           <option class="time-option" value="3 часа">3 часа</option>
+                           <option class="time-option" value="4 часа">4 часа</option>
+                           <option class="time-option" value="5 часов">5 часов</option>
+                           <option class="time-option" value="6 часов">6 часов</option>
+                           <option class="time-option" value="Более 6 часов">Более 6 часов</option>
+                        </select>
+                        <div class="reservations__input-box">
+                           <input class="input__number" type="number" min="1" max="100" placeholder="Количество человек"
+                              name="quantity" required>
+                           <input class="input__data" type="text" placeholder="Планируемая дата" name="data" required>
+                           <svg class="img-input__data" width="20" height="21" viewBox="0 0 20 21" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M3.78713 0.111359C3.63494 0.190789 3.54587 0.272407 3.46004 0.410989L3.34214 0.601417L3.32932 1.55207L3.31649 2.50269L2.78187 2.50335C2.1242 2.50421 1.81114 2.56641 1.36995 2.78403C0.723613 3.10277 0.203544 3.77298 0.0571421 4.47573C0.0086153 4.70887 0.000208165 5.70906 0.000208165 11.2544C0.000208165 18.5167 -0.0177792 18.0436 0.280655 18.6387C0.565129 19.206 1.07456 19.6442 1.72582 19.8819L2.01264 19.9866L9.88192 19.9969C18.6775 20.0085 18.0461 20.0281 18.6488 19.7249C19.2313 19.4319 19.7121 18.8629 19.9133 18.2284L20 17.9549V11.2544V4.55387L19.9133 4.28038C19.7117 3.64471 19.2305 3.0744 18.6509 2.78427C18.218 2.56755 17.8991 2.50421 17.2365 2.50335L16.7019 2.50269L16.6891 1.55207L16.6763 0.601417L16.5584 0.410989C16.4725 0.272407 16.3834 0.190789 16.2313 0.111359C16.0295 0.00606521 16.0014 0.00219727 15.4388 0.00219727C14.8021 0.00219727 14.6576 0.035446 14.4536 0.228922C14.2062 0.463499 14.1932 0.530114 14.1932 1.56344V2.50269H10.0092H5.82518V1.58329C5.82518 0.583132 5.80833 0.484792 5.59827 0.260998C5.39333 0.0426349 5.242 0.00399449 4.58812 0.00305681C4.01538 0.00223634 3.98953 0.00571358 3.78713 0.111359ZM18.3288 13.0843L18.3186 17.8053L18.2117 17.9583C18.1529 18.0424 18.0398 18.1552 17.9604 18.2089L17.816 18.3066H10.0087H2.20147L2.04842 18.1998C1.96423 18.141 1.85134 18.028 1.79758 17.9487L1.69982 17.8044L1.68957 13.0838L1.67933 8.36322H10.0092H18.3391L18.3288 13.0843Z"
+                                 fill="#205694" />
+                           </svg>
+                        </div>
+                        <div class="reservations__check-box-block">
+                           <label class="chef__label">
+                              <input class="chef__chekbox" type="checkbox"
+                                 value="Услуги профессионального повара ( + 10 000 ₽ )" name="chef">
+                              <span class="chef__chekbox-style"></span>
+                              <span class="reservations__chef-title">
+                                 Услуги гида ( + 5 000 ₽ )
+                              </span>
+                           </label>
+                           <label class="jet-ski__label">
+                              <input class="jet-ski__chekbox" type="checkbox" value="Гидроцикл ( + 12 000 ₽/час )"
+                                 name="jetski">
+                              <span class="jet-ski__chekbox-style"></span>
+                              <span class="reservations__jet-ski-title">
+                                 Трансфер из Новокузнецка ( + 3 000 ₽ )
+                              </span>
+                           </label>
+                        </div>
+                        <div class="reservations__contacts-box">
+                           <input class="input__contacts-name" type="text" placeholder="Ваше имя"
+                              name="namereservations" required>
+                           <input class="input__contacts-phone" type="tel" placeholder="Ваш телефон"
+                              name="phonereservations" required>
+                        </div>
+                        <button class="reservations__btn" type="submit">Отправить</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
    </div>
 
 
@@ -383,6 +502,8 @@
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="js/hystmodal.min.js"></script>
    <script src="js/inputmask.min.js"></script>
+   <script src="js/choices.min.js"></script>
+   <script src="js/air-datepicker.js"></script>
    <script src="js/main.min.js"></script>
 </body>
 
